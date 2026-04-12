@@ -8,7 +8,7 @@ export function Navigation() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-      <div className="mx-auto max-w-5xl px-48 py-4 flex items-center justify-between">
+      <div className="mx-auto max-w-5xl px-50 py-4 flex items-center justify-between">
         <Link
           href="/"
           className="font-mono font-bold text-foreground hover:text-accent transition-colors"
