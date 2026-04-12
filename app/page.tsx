@@ -61,8 +61,8 @@ const research = [
     text: "mechanotroph microbiology, copper-chelating peptide biochemistry, and bioenergy research –",
     links: [
       {
-        text: "dongwonchoi@etamu.edu",
-        href: "mailto:dongwonchoi@etamu.edu",
+        text: "Professor DongWon Choi",
+        href: "https://www.etamu.edu/people/dongwon-choi/",
       },
     ],
   },
