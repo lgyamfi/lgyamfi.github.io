@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased pt-16">
+      <body className="font-mono antialiased pt-16">
         <Navigation />
         {children}
         {process.env.NODE_ENV === "production" && <Analytics />}
