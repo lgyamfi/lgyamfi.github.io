@@ -1,6 +1,4 @@
 import { Metadata } from 'next'
-import { getPosts } from '@/lib/sanity'
-import { BlogGrid } from '@/components/blog-grid'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -8,11 +6,7 @@ export const metadata: Metadata = {
   description: 'Thoughts on product, engineering, and technology',
 }
 
-export const revalidate = 3600
-
-export default async function BlogPage() {
-  const posts = await getPosts()
-
+export default function BlogPage() {
   return (
     <main className="mx-auto max-w-5xl px-6 py-12">
       <div className="mb-12">
@@ -26,11 +20,9 @@ export default async function BlogPage() {
           Blog
         </h1>
         <p className="prose-text text-muted-foreground">
-          Thoughts on product, engineering, and technology
+          Coming soon — thoughts on product, engineering, and technology
         </p>
       </div>
-
-      <BlogGrid posts={posts} />
     </main>
   )
 }
