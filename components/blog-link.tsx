@@ -8,7 +8,7 @@ export function BlogLink() {
       <h2 className="section-title mb-6">Latest from the blog:</h2>
       <div className="prose-text">
         <Link
-          href="/blog"
+          href="/devtalk"
           className="text-accent hover:opacity-80 transition-opacity inline-flex items-center gap-2"
         >
           explore articles
