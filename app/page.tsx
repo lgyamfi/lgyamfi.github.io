@@ -6,7 +6,7 @@ import { BlogLink } from "@/components/blog-link";
 
 const DUTY = [
   {
-    text: "relations  <u>@DbVisualizer</u>; platform where users are able to query youtube videos using natural language",
+    text: "relations <u>@DbVisualizer</u>; full spectrum of dev advocacy – engineering blog, product demos, official user guides",
     links: [
       {
         text: "@DbVisualizer",
@@ -24,7 +24,7 @@ const DUTY = [
     ],
   },
   {
-    text: "api & product <u>@Yemaachi</u>; flagship (ViAL & Uvosyo), technical product & API documentation supporting clinical trial data pipelines and LIMS workflows.",
+    text: "api & product <u>@Yemaachi</u>; flagship (ViAL & Uvosyo), technical product & API documentation supporting clinical trial data pipelines and LIMS workflows",
     links: [
       {
         text: "@Yemaachi",
