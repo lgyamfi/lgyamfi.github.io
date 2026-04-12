@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Blog',
+  title: 'devtalk',
   description: 'Thoughts on product, engineering, and technology',
 }
 
@@ -17,10 +17,10 @@ export default function BlogPage() {
           ← back
         </Link>
         <h1 className="font-mono text-3xl font-bold text-foreground mb-2">
-          Blog
+          devtalk
         </h1>
         <p className="prose-text text-muted-foreground">
-          Coming soon — thoughts on product, engineering, and technology
+          coming soon — thoughts on product, engineering, and technology
         </p>
       </div>
     </main>

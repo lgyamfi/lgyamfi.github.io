@@ -27,13 +27,13 @@ export function Navigation() {
             home
           </Link>
           <Link
-            href="/blog"
-            className={`font-mono text-sm transition-colors ${pathname.startsWith('/blog')
+            href="/devtalk"
+            className={`font-mono text-sm transition-colors ${pathname.startsWith('/devtalk')
               ? 'text-foreground'
               : 'text-muted-foreground hover:text-foreground'
               }`}
           >
-            blog
+            devtalk
           </Link>
         </div>
       </div>
