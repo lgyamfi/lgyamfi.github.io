@@ -117,7 +117,7 @@ export default function Home() {
       <footer className="mt-4 pt-3 border-t border-border space-y-2">
         <p className="prose-text">
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/lesliegyamfi"
             className="text-accent hover:opacity-80 transition-opacity"
           >
             linkedin
