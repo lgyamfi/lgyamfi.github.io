@@ -69,7 +69,7 @@ const research = [
 ];
 
 const interests = [
-  "distributed systems, ml, cloud-native go",
+  "distributed systems, ml, cloud-native computing",
   "synthetic indices markets",
 ];
 
