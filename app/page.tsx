@@ -110,11 +110,11 @@ export default function Home() {
         items={interests.map((text) => ({ text }))}
       />
 
-      <p className="prose-text my-12 text-muted-foreground">
+      <p className="prose-text my-4 text-muted-foreground">
         engineering, relations, piano and gaming.
       </p>
 
-      <footer className="mt-16 pt-8 border-t border-border space-y-3">
+      <footer className="mt-4 pt-3 border-t border-border space-y-2">
         <p className="prose-text">
           <a
             href="https://linkedin.com"
