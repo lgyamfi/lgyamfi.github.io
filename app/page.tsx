@@ -6,7 +6,7 @@ import { BlogLink } from "@/components/blog-link";
 
 const DUTY = [
   {
-    text: "relations <u>@dbvisualizer</u>; full spectrum of dev advocacy – engineering blog, product demos, official user guides",
+    text: "relations <u>@dbvisualizer</u>; full spectrum of dev advocacy – engineering blogs, product demos, official user guides",
     links: [
       {
         text: "@dbvisualizer",
@@ -33,7 +33,7 @@ const DUTY = [
     ],
   },
   {
-    text: "relations <u>@piecesappfordevelopers</u> | <u>@brightdata</u>",
+    text: "relations <u>@piecesappfordevelopers</u> & <u>@brightdata</u>",
     links: [
       {
         text: "@piecesappfordevelopers",
@@ -44,7 +44,7 @@ const DUTY = [
         href: "https://brightdata.com/",
       },
     ],
-  }
+  },
 ];
 
 const research = [
@@ -69,8 +69,8 @@ const research = [
 ];
 
 const interests = [
-  "energy markets, futures hedging against oil production",
-  "@general agents; sovereign intelligence + agent swarms",
+  "distributed systems, ml, cloud-native go",
+  "synthetic indices markets",
 ];
 
 export default function Home() {
@@ -111,7 +111,7 @@ export default function Home() {
       />
 
       <p className="prose-text my-12 text-muted-foreground">
-        relations, designing, piano and gaming.
+        engineering, relations, piano and gaming.
       </p>
 
       <footer className="mt-16 pt-8 border-t border-border space-y-3">
