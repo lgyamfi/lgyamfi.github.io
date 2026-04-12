@@ -1,100 +1,100 @@
-'use client'
+"use client";
 
-import { PortfolioHeader } from '@/components/portfolio-header'
-import { PortfolioSection } from '@/components/portfolio-section'
-import { BlogLink } from '@/components/blog-link'
+import { PortfolioHeader } from "@/components/portfolio-header";
+import { PortfolioSection } from "@/components/portfolio-section";
+import { BlogLink } from "@/components/blog-link";
 
 const DUTY = [
   {
-    text: 'Building 🔥 Ospawniabs; platform where domain operators – from the best in the world to you – can distill their expertise & skills into agents, tools & automations that autonomously do the work, at their level, and share for anyone; across every domain of knowledge work.',
+    text: "Building  <u>Argus</u>; platform where users are able to query youtube videos using natural language",
     links: [
       {
-        text: 'Ospawniabs',
-        href: 'https://ospawniabs.com',
+        text: "Argus",
+        href: "https://arguss.xyz",
       },
     ],
   },
   {
-    text: 'ml & product Linkedin; flagship, built ml models to understand human potential & match that at scale. contrastive embeddings + graph propagation at 500M-profile graph scale.',
+    text: "api & product <u>Yemaachi</u>; flagship (ViAL & Uvosyo), technical product & API documentation supporting clinical trial data pipelines and LIMS workflows.",
     links: [
       {
-        text: 'Linkedin',
-        href: 'https://linkedin.com',
+        text: "Yemaachi",
+        href: "https://yemaachi.com",
       },
     ],
   },
   {
-    text: 'core ml Gappie; wireless technologies, model pruning/quantization, inference apis + data pipeline (apple home ecosystem)',
+    text: "core ml Gappie; wireless technologies, model pruning/quantization, inference apis + data pipeline (apple home ecosystem)",
     links: [
       {
-        text: 'Gappie',
-        href: 'https://gappie.com',
+        text: "Gappie",
+        href: "https://gappie.com",
       },
     ],
   },
   {
-    text: 'research @nasa; payload rocket RF communications + telecommand control signals transmission (eyes in the cloud, usli)',
+    text: "research @nasa; payload rocket RF communications + telecommand control signals transmission (eyes in the cloud, usli)",
     links: [
       {
-        text: '@nasa',
-        href: 'https://nasa.gov',
+        text: "@nasa",
+        href: "https://nasa.gov",
       },
     ],
   },
   {
-    text: 'data-center scale ml compute infra @usc/isi',
+    text: "data-center scale ml compute infra @usc/isi",
     links: [
       {
-        text: '@usc/isi',
-        href: 'https://isi.edu',
+        text: "@usc/isi",
+        href: "https://isi.edu",
       },
     ],
   },
   {
-    text: 'oil & gas energy data layer @geospectra engineering',
+    text: "oil & gas energy data layer @geospectra engineering",
     links: [
       {
-        text: '@geospectra engineering',
-        href: 'https://geospectra.com',
+        text: "@geospectra engineering",
+        href: "https://geospectra.com",
       },
     ],
   },
-]
+];
 
 const research = [
   {
-    text: 'Multidimensional lattice for Post-Quantum Cryptographic Key Generation with',
+    text: "Multidimensional lattice for Post-Quantum Cryptographic Key Generation with",
     links: [
       {
-        text: 'Dr. Paul Ware',
-        href: '#',
+        text: "Dr. Paul Ware",
+        href: "#",
       },
     ],
   },
   {
-    text: 'temporospatial ground plane morphology analysis + semantic segmentation & trajectory mapping, faculty -',
+    text: "temporospatial ground plane morphology analysis + semantic segmentation & trajectory mapping, faculty -",
     links: [
       {
-        text: 'Dr. Kofi Nyarko',
-        href: '#',
+        text: "Dr. Kofi Nyarko",
+        href: "#",
       },
     ],
   },
   {
-    text: 'disease modeling, stochastic processes, and differential equations research –',
+    text: "disease modeling, stochastic processes, and differential equations research –",
     links: [
       {
-        text: 'scook@carleton.edu',
-        href: 'mailto:scook@carleton.edu',
+        text: "scook@carleton.edu",
+        href: "mailto:scook@carleton.edu",
       },
     ],
   },
-]
+];
 
 const interests = [
-  'energy markets, futures hedging against oil production',
-  '@general agents; sovereign intelligence + agent swarms',
-]
+  "energy markets, futures hedging against oil production",
+  "@general agents; sovereign intelligence + agent swarms",
+];
 
 export default function Home() {
   return (
@@ -113,7 +113,7 @@ export default function Home() {
                 {item.text}
                 {item.links && (
                   <>
-                    {' '}
+                    {" "}
                     <a
                       href={item.links[0].href}
                       className="text-accent hover:opacity-80 transition-opacity"
@@ -128,7 +128,10 @@ export default function Home() {
         </div>
       </section>
 
-      <PortfolioSection title="Interests" items={interests.map((text) => ({ text }))} />
+      <PortfolioSection
+        title="Interests"
+        items={interests.map((text) => ({ text }))}
+      />
 
       <p className="prose-text my-12 text-muted-foreground">
         relations, designing, piano and gaming.
@@ -147,5 +150,5 @@ export default function Home() {
 
       <BlogLink />
     </main>
-  )
+  );
 }
