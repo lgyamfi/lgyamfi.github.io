@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export function BlogLink() {
   return (
-    <section className="mt-16 pt-12 border-t border-border">
+    <section className="mt-4 pt-3 border-t border-border">
       <h2 className="section-title mb-6">Latest from the blog:</h2>
       <div className="prose-text">
         <Link
