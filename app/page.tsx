@@ -6,7 +6,16 @@ import { BlogLink } from "@/components/blog-link";
 
 const DUTY = [
   {
-    text: "Building  <u>@Argus</u>; platform where users are able to query youtube videos using natural language",
+    text: "relations  <u>@DbVisualizer</u>; platform where users are able to query youtube videos using natural language",
+    links: [
+      {
+        text: "@DbVisualizer",
+        href: "https://dbvis.com",
+      },
+    ],
+  },
+  {
+    text: "building  <u>@Argus</u>; platform where users are able to query youtube videos using natural language",
     links: [
       {
         text: "@Argus",
@@ -24,53 +33,21 @@ const DUTY = [
     ],
   },
   {
-    text: "core ml Gappie; wireless technologies, model pruning/quantization, inference apis + data pipeline (apple home ecosystem)",
+    text: "relations <u>@piecesappfordevelopers</u> | <u>@brightdata</u>",
     links: [
       {
-        text: "Gappie",
-        href: "https://gappie.com",
+        text: "@piecesappfordevelopers",
+        href: "https://pieces.app/",
       },
-    ],
-  },
-  {
-    text: "research @nasa; payload rocket RF communications + telecommand control signals transmission (eyes in the cloud, usli)",
-    links: [
       {
-        text: "@nasa",
-        href: "https://nasa.gov",
+        text: "@brightdata",
+        href: "https://brightdata.com/",
       },
     ],
-  },
-  {
-    text: "data-center scale ml compute infra @usc/isi",
-    links: [
-      {
-        text: "@usc/isi",
-        href: "https://isi.edu",
-      },
-    ],
-  },
-  {
-    text: "oil & gas energy data layer @geospectra engineering",
-    links: [
-      {
-        text: "@geospectra engineering",
-        href: "https://geospectra.com",
-      },
-    ],
-  },
+  }
 ];
 
 const research = [
-  {
-    text: "Multidimensional lattice for Post-Quantum Cryptographic Key Generation with",
-    links: [
-      {
-        text: "Dr. Paul Ware",
-        href: "#",
-      },
-    ],
-  },
   {
     text: "temporospatial ground plane morphology analysis + semantic segmentation & trajectory mapping, faculty -",
     links: [
