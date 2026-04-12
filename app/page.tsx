@@ -6,28 +6,28 @@ import { BlogLink } from "@/components/blog-link";
 
 const DUTY = [
   {
-    text: "relations <u>@DbVisualizer</u>; full spectrum of dev advocacy – engineering blog, product demos, official user guides",
+    text: "relations <u>@dbvisualizer</u>; full spectrum of dev advocacy – engineering blog, product demos, official user guides",
     links: [
       {
-        text: "@DbVisualizer",
+        text: "@dbvisualizer",
         href: "https://dbvis.com",
       },
     ],
   },
   {
-    text: "building  <u>@Argus</u>; platform where users are able to query youtube videos using natural language",
+    text: "building  <u>@argus</u>; platform where users are able to query youtube videos using natural language",
     links: [
       {
-        text: "@Argus",
+        text: "@argus",
         href: "https://arguss.xyz",
       },
     ],
   },
   {
-    text: "api & product <u>@Yemaachi</u>; flagship (ViAL & Uvosyo), technical product & API documentation supporting clinical trial data pipelines and LIMS workflows",
+    text: "api & product <u>@yemaachi</u>; flagship (ViAL & Uvosyo), technical product & API documentation supporting clinical trial data pipelines and LIMS workflows",
     links: [
       {
-        text: "@Yemaachi",
+        text: "@yemaachi",
         href: "https://yemaachi.com",
       },
     ],
@@ -49,20 +49,20 @@ const DUTY = [
 
 const research = [
   {
-    text: "temporospatial ground plane morphology analysis + semantic segmentation & trajectory mapping, faculty -",
+    text: " multicriteria review + geospatial analyses of AC condensate water reuse -",
     links: [
       {
-        text: "Dr. Kofi Nyarko",
-        href: "#",
+        text: "springer nature",
+        href: "https://link.springer.com/article/10.1007/s43832-026-00381-8",
       },
     ],
   },
   {
-    text: "disease modeling, stochastic processes, and differential equations research –",
+    text: "mechanotroph microbiology, copper-chelating peptide biochemistry, and bioenergy research –",
     links: [
       {
-        text: "scook@carleton.edu",
-        href: "mailto:scook@carleton.edu",
+        text: "dongwonchoi@etamu.edu",
+        href: "mailto:dongwonchoi@etamu.edu",
       },
     ],
   },
