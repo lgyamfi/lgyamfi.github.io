@@ -6,19 +6,19 @@ import { BlogLink } from "@/components/blog-link";
 
 const DUTY = [
   {
-    text: "Building  <u>Argus</u>; platform where users are able to query youtube videos using natural language",
+    text: "Building  <u>@Argus</u>; platform where users are able to query youtube videos using natural language",
     links: [
       {
-        text: "Argus",
+        text: "@Argus",
         href: "https://arguss.xyz",
       },
     ],
   },
   {
-    text: "api & product <u>Yemaachi</u>; flagship (ViAL & Uvosyo), technical product & API documentation supporting clinical trial data pipelines and LIMS workflows.",
+    text: "api & product <u>@Yemaachi</u>; flagship (ViAL & Uvosyo), technical product & API documentation supporting clinical trial data pipelines and LIMS workflows.",
     links: [
       {
-        text: "Yemaachi",
+        text: "@Yemaachi",
         href: "https://yemaachi.com",
       },
     ],
