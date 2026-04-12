@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   return (
-    <main className="mx-auto max-w-5xl px-6 py-12">
+    <main className="mx-auto max-w-xl px-6 py-12">
       <div className="mb-12">
         <Link
           href="/"
