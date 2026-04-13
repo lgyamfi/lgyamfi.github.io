@@ -126,7 +126,7 @@
 
 @layer components {
   .prose-text {
-    @apply text-base leading-relaxed;
+    @apply text-xs leading-relaxed;
   }
 
   .accent-link {
