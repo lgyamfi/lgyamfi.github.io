@@ -111,7 +111,7 @@ export default function Home() {
       />
 
       <p className="prose-text my-4 text-muted-foreground">
-        engineering, relations, piano and gaming.
+        engineering, relations, piano and gaming
       </p>
 
       <footer className="mt-4 pt-3 border-t border-border space-y-2">
