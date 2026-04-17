@@ -120,7 +120,15 @@ export default function Home() {
             href="https://linkedin.com/in/lesliegyamfi"
             className="text-accent hover:opacity-80 transition-opacity"
           >
-            linkedin
+            <u>linkedin</u>
+          </a>
+        </p>
+        <p className="prose-text">
+          <a
+            href="mailto:lsarfogyamf@leomail.tamuc.edu"
+            className="text-accent hover:opacity-80 transition-opacity"
+          >
+            <u>lsarfogyamf@leomail.tamuc.edu</u>
           </a>
         </p>
       </footer>
